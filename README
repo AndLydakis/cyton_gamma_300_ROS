@@ -21,14 +21,17 @@ ROS package for using Robai's Cyton Gamma 300 robotic arm with ROS based on Andr
 
    1. Install and configure a ROS Indigo:
        http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
-   2. Clone the workspace:
+   2. Install the moveit_plugins and industrial_core:
+       sudo apt-get install ros-indigo-industrial-core
+       sudo apt-get install ros-indigo-moveit-plugins
+   3. Clone the workspace:
        git clone git@bitbucket.org:AndLydakis/cyton_gamma_300_ros.git
-   3. Download the dependencies for the repository as well:
+   4. Download the dependencies for the repository as well:
        a. The dynamixel controllers, drivers, and message descriptions:
            git clone https://github.com/arebgun/dynamixel_motor.git
        b. The ROS-Industrial core meta-package:
            git clone https://github.com/ros-industrial/industrial_core.git
-   4. Compile all the packages (you may optionally use the Debug build type):
+   5. Compile all the packages (you may optionally use the Debug build type):
        catkin_make -DCMAKE_BUILD_TYPE=Debug
 
    Launching the arm softawre:
