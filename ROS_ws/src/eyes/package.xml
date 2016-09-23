@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>eyes</name>
+  <version>0.0.1</version>
+  <description>Bence's amazing eye.</description>
+  <maintainer email="bence@cserna.net">Bence Cserna</maintainer>
+  <license>BSD</license>
+  <author>Bence Cserna</author>
+
+  <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>rostest</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>ar_track_alvar_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>

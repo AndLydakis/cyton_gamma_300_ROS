@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find eyes)/launch/openni2.launch"/>
+  <include file="$(find eyes)/launch/track_kinect.launch"/>
+</launch>

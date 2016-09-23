@@ -1,0 +1,3 @@
+<launch>
+  <node name="listener" pkg="eyes" type="PointCloudDetector.py" output="screen"/>
+</launch>
