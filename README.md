@@ -55,7 +55,7 @@ ROS package for using Robai's Cyton Gamma 300 robotic arm with ROS based on Andr
 ![term1](gamma_images/ros_arm6.png)
    11. Terminal 5 : roslaunch cyton_gamma_300_andreas_configuration moveit_planning_execution.launch
 ![term1](gamma_images/ros_arm7.png)
-   12. From that point, connecto to the database in the MoveIt panel and select a planning algorithm.
+   12. From that point, connect to the database in the MoveIt panel and select a planning algorithm.
    13. Manipulate the axes in Rviz to get the position you need, and from the planning tab select "Plan & Execute". You can save states and load them as long as you use the same database
 
    If you want to use the Kinect with the as well:
