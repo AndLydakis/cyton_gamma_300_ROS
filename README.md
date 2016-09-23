@@ -39,22 +39,22 @@ ROS package for using Robai's Cyton Gamma 300 robotic arm with ROS based on Andr
    On every terminal cd to cyton_gamma_300_ROS/ROS_ws/ and source /devel/setup.bash or add it to your ~/.bashrc 
    1.  Terminal 1 : roslaunch cyton_controllers controller_manager.launch.
    2.  You should get an output similar to the following:
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm1.png)
+![term1](gamma_images/ros_arm1.png)
    3.  Terminal 2 : roslaunch cyton_controllers start_controller.launch
    4.  On terminal 2 you should get the following output :
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm2.png)
+![term1](gamma_images/ros_arm2.png)
    5.  On terminal 1 you should get the following output :
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm3.png)
+![term1](gamma_images/ros_arm3.png)
    6.  Terminal 3 : roslaunch cyton_controllers gripper_manager.launch
    7.  You should get an output similar to the following:
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm4.png)
+![term1](gamma_images/ros_arm4.png)
    8.  Terminal 4 : roslaunch cyton_controllers gripper_controller.launch
    9.  On terminal 3 you should get the following output :
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm5.png)
+![term1](gamma_images/ros_arm5.png)
    10. On terminal 4 you should get the following output :
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm6.png)
+![term1](gamma_images/ros_arm6.png)
    11. Terminal 5 : roslaunch cyton_gamma_300_andreas_configuration moveit_planning_execution.launch
-![term1](https://bitbucket.org/AndLydakis/cyton_gamma_300_ros/raw/master/gamma_images/ros_arm7.png)
+![term1](gamma_images/ros_arm7.png)
    12. From that point, connecto to the database in the MoveIt panel and select a planning algorithm.
    13. Manipulate the axes in Rviz to get the position you need, and from the planning tab select "Plan & Execute". You can save states and load them as long as you use the same database
 
